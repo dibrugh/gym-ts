@@ -9,6 +9,11 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  "prettier": {
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ]
+  },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
     "framer-motion": "^10.16.16",
