@@ -20,7 +20,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 
   const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false);
   // Цвет в зависимости от положения Navbar
-  const navbarBackground = !isTopOfPage ? "" : "bg-primary-100 drop-shadow";
+  const navbarBackground = isTopOfPage ? "" : "bg-primary-100 drop-shadow";
 
   return (
     <nav>
